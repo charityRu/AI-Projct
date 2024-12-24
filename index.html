@@ -15,9 +15,9 @@
         Welcome to the AI French Poem Generator
     </h1>
 </header>
-<main>
+<main><div class="form-container">
     <form id="poem-generator">
-        <input type="text"placeholder="enter the topic"
+        <input type="text"placeholder="enter the topic of French poem"
         autofocus
         required
         auto complete="off"
@@ -25,10 +25,12 @@
 
         <input type="submit" class="submit-button"/>
     </form>
-    <div class="poem" id="poem">
+    <div class="hint">i.e:Flowers,Paris or Cheese</div>
+</div>
+    <div class="poem hidden" id="poem"></div>
         
       
-    </div>
+    
 
 </main>
     <script src="src/index.js"></script>
