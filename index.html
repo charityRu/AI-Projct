@@ -7,21 +7,34 @@
     <title>AI Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1> 
-        Welcome to the AI Generator
+        Welcome to the AI French Poem Generator
     </h1>
 </header>
 <main>
     <form>
-        <input type="text"placeholder="enter the topic"autofocus="required"auto complete="off"/>
-        <input type="submit"/>
+        <input type="text"placeholder="enter the topic"
+        autofocus
+        required
+        auto complete="off"
+        class="instructions"/>
+
+        <input type="submit" class="submit-button"/>
     </form>
+    <div class="poem">
+        Demain, dès l’aube, à l’heure où blanchit la campagne,<br>
+       Je partirai. Vois-tu, je sais que tu m’attends.
+
+    </div>
+
 </main>
     <script src="src/index.js"></script>
     <footer>This AI project was coded by<a href="https://github.com/charityRu" target="blank"> Charity</a> & is
-        <a href="https://github.com/charityRu/AI-Projct">open sourced on github </a>
+        <a href="https://github.com/charityRu/AI-Projct">open sourced on Github </a>
         and is <a href="https://ai-projct.vercel.app/">hosted on Vercel</a>
      </footer>
+    </div>
 </body>
 </html>
